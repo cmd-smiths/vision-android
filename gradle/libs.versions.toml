@@ -1,0 +1,76 @@
+[versions]
+android-application = "8.5.1"
+android-library = "8.5.1"
+android-tools-build-gradle = "8.5.1"
+androidx-activity-compose = "1.9.1"
+androidx-appcompat = "1.7.0"
+androidx-core-ktx = "1.13.1"
+androidx-hilt-navigation-compose = "1.2.0"
+androidx-lifecycle-runtime-ktx = "2.8.4"
+androidx-navigation-compose = "2.8.0-beta06"
+androidx-room = "2.6.1"
+androidx-test-espresso-core = "3.6.1"
+androidx-test-ext-junit = "1.2.1"
+compose-bom = "2024.06.00"
+google-android-gms-play-services-ads = "23.2.0"
+google-android-gms-play-services-auth = "21.2.0"
+google-android-material = "1.12.0"
+google-dagger-hilt-android = "2.50"
+google-dagger-hilt-android-compiler = "2.50"
+google-devtools-ksp = "1.9.24-1.0.20"
+google-firebase-bom = "33.1.2"
+google-gms-google-services = "4.4.2"
+jetbrains-kotlin-android = "1.9.24"
+jetbrains-kotlin-gradle-plugin = "1.9.24"
+jetbrains-kotlinx-serialization-json = "1.6.3"
+junit = "4.13.2"
+orbit-mvi = "8.0.0"
+
+[libraries]
+android-tools-build-gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "android-tools-build-gradle" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity-compose" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+androidx-compose-material = { group = "androidx.compose.material", name = "material" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core-ktx" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidx-hilt-navigation-compose" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidx-lifecycle-runtime-ktx" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidx-navigation-compose" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "androidx-room" }
+androidx-room-gradle-plugin = { group = "androidx.room", name = "room-gradle-plugin", version.ref = "androidx-room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "androidx-room" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "androidx-room" }
+androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidx-test-espresso-core" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+google-android-gms-play-services-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "google-android-gms-play-services-ads" }
+google-android-gms-play-services-auth = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "google-android-gms-play-services-auth" }
+google-android-material = { group = "com.google.android.material", name = "material", version.ref = "google-android-material" }
+google-dagger-hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "google-dagger-hilt-android" }
+google-dagger-hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "google-dagger-hilt-android-compiler" }
+google-devtools-ksp-gradle-plugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "google-devtools-ksp" }
+google-firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
+google-firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "google-firebase-bom" }
+jetbrains-kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "jetbrains-kotlin-gradle-plugin" }
+jetbrains-kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "jetbrains-kotlinx-serialization-json" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+orbit-mvi-compose = { module = "org.orbit-mvi:orbit-compose", version.ref = "orbit-mvi" }
+orbit-mvi-core = { module = "org.orbit-mvi:orbit-core", version.ref = "orbit-mvi" }
+orbit-mvi-viewmodel = { module = "org.orbit-mvi:orbit-viewmodel", version.ref = "orbit-mvi" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android-application" }
+android-library = { id = "com.android.library", version.ref = "android-library" }
+androidx-room = { id = "androidx.room", version.ref = "androidx-room" }
+google-dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "google-dagger-hilt-android" }
+google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "google-devtools-ksp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "google-gms-google-services" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "jetbrains-kotlin-android" }
+wing-tree-serie-androidx-room = { id = "wing.tree.serie.androidx.room", version = "unspecified" }
+wing-tree-serie-hilt = { id = "wing.tree.serie.hilt", version = "unspecified" }
